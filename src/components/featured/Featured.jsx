@@ -2,7 +2,7 @@ import React from 'react'
 import './featured.scss'
 import { InfoOutlined, PlayArrow } from '@mui/icons-material'
 
-export default function Featured(type) {
+export default function Featured({type}) {
   return (
     <div className='featured'>
         {type && (
@@ -28,13 +28,14 @@ export default function Featured(type) {
             </div>
         )}
         <img 
-            src='https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg?auto=compress&cs=tinysrgb&w=400'
+            src='https://i.pinimg.com/236x/55/9b/23/559b231288041930463301f956fcf53d.jpg'
             alt='feature'
         />
         <div className="info">
             <img 
-                src="https://images.unsplash.com/photo-1675181759397-ea032114694d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDl8aG1lbnZRaFVteE18fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                alt="info" />
+                src="https://i.pinimg.com/236x/97/10/71/9710718851037406d2ca5e71fa03d964.jpg"
+                alt="info" 
+            />
         
             <span className="desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, temporibus doloremque qui itaque animi consequatur aliquid deleniti, voluptates repudiandae ut totam recusandae quae eius iste quam consequuntur vitae ullam accusamus!
@@ -51,5 +52,5 @@ export default function Featured(type) {
             </div>
         </div>
     </div>
-  )
+  );
 }
