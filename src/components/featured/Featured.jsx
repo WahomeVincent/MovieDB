@@ -28,7 +28,7 @@ export default function Featured({type}) {
             </div>
         )}
         <img 
-            src='https://i.pinimg.com/236x/55/9b/23/559b231288041930463301f956fcf53d.jpg'
+            src='https://images.unsplash.com/photo-1695806067207-045446e7a0fa?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY0fHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D&w=500'
             alt='feature'
         />
         <div className="info">
